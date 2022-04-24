@@ -7,9 +7,12 @@ class Post extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Flexible(
-      flex: 5,
+      flex: 4,
       child: ListView(
         children: [
+          PostTile(),
+          PostTile(),
+          PostTile(),
           PostTile(),
         ],
       ),
