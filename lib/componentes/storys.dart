@@ -7,8 +7,8 @@ class Storys extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Flexible(
+      flex: 1,
       child: ListView(
-        shrinkWrap: true,
         scrollDirection: Axis.horizontal,
         children: [
           ItemStorys(

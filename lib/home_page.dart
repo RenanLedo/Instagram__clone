@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_clone/componentes/header.dart';
+import 'package:instagram_clone/componentes/post.dart';
 import 'package:instagram_clone/componentes/storys.dart';
 
 class HomePage extends StatelessWidget {
@@ -11,9 +12,12 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.black,
       body: Column(
         children: [
+          SizedBox(
+            height: 20,
+          ),
           Header(),
           Storys(),
-          Storys(),
+          Post(),
         ],
       ),
     );
